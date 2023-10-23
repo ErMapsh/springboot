@@ -11,8 +11,8 @@ public class HelloController {
         return "Hello world";
     }
 
-    @RequestMapping("/fucku")
+    @RequestMapping("/thankyou")
     public String fucku(){
-        return "Fuck u too";
+        return "Thank you for visiting";
     }
 }
